@@ -31,11 +31,11 @@ const InsuranceDropdown = () => (
           <img alt="search" className="Insurance__icon" src={search} />
         </div>
         <ul className="App__dropdown-content--list">
-          {uniqueInsurances.map((insurance) => (
+          {uniqueInsurances.map((insurance, index) => (
             <li key={insurance}>
               <div className="form-group">
-                <input type="checkbox" id="insurance" />
-                <label htmlFor="insurance">
+                <input type="checkbox" id={`insurance-${index}`} />
+                <label htmlFor={`insurance-${index}`}>
                   {insurance}{" "}
                   <span className="Availability__amount">
                     ({amountOfElements(insurance, insurances)})

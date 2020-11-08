@@ -21,11 +21,11 @@ const SpecialityDropdown = () => (
           />
         </div>
         <ul className="App__dropdown-content--list">
-          {uniqueSpecialities.map((speciality) => (
+          {uniqueSpecialities.map((speciality, index) => (
             <li key={speciality}>
               <div className="form-group">
-                <input type="checkbox" id="speciality" />
-                <label htmlFor="speciality">
+                <input type="checkbox" id={`speciality-${index}`} />
+                <label htmlFor={`speciality-${index}`}>
                   {speciality}
                   <span className="Availability__amount">
                     ({amountOfElements(speciality, specialities)})
