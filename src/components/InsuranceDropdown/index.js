@@ -15,14 +15,14 @@ const InsuranceDropdown = () => (
   <li className="App__menu-unit">
     <details>
       <summary className="App__dropdown">Insurance</summary>
-      <div className="App__insurance-dropdown-content">
-        <div className="App__switch-container">
+      <div className="Insurance__dropdown-content">
+        <div className="Insurance__switch-container">
           <p className="Insurance__switch-text">
             Provides other than insurance payment options
           </p>
           <Switch />
         </div>
-        <div className="filter-by-insurance-container">
+        <div className="Insurance__filter-by-container">
           <div className="Insurance__divider" />
           <input
             className="Insurance__input-filter-by"

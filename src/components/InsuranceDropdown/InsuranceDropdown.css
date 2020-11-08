@@ -1,4 +1,4 @@
-.App__switch-container {
+.Insurance__switch-container {
   display: flex;
 }
 
@@ -8,7 +8,7 @@
   line-height: 22px;
 }
 
-.filter-by-insurance-container {
+.Insurance__filter-by-container {
   position: relative;
   padding: 4px 30px 0px 16px;
 }
@@ -27,7 +27,7 @@
   margin-bottom: 16px;
 }
 
-.App__insurance-dropdown-content {
+.Insurance__dropdown-content {
   position: absolute;
   color: rgba(36, 77, 81, 1);
   background-color: white;
