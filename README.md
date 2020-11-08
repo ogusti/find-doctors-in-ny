@@ -1,4 +1,4 @@
-# [Find doctors in NY](https://tripment.vercel.app)
+# [Find doctors in NY](https://find-doctors-in-ny.vercel.app)
 
 Quick Start
 
