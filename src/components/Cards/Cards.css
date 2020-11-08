@@ -1,0 +1,109 @@
+:root {
+  --medical-blue: #009abb;
+  --medical-gray: #c7d1c6;
+}
+
+.card {
+  padding: 36px 0px 32px 30px;
+  border-bottom: 1px solid #eaeeee;
+  display: flex;
+  flex-wrap: wrap;
+  transition: 0.1s;
+}
+
+.cards-container {
+  margin-top: 12px;
+}
+
+.card:hover {
+  background-color: var(--vital-green);
+  transition: 0.1s;
+}
+
+.card-photo {
+  background: linear-gradient(
+    to bottom,
+    var(--medical-blue),
+    var(--medical-gray)
+  );
+  color: white;
+  border-radius: 50%;
+  width: 96px;
+  height: 96px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.card-main-info {
+  flex-basis: 650px;
+}
+
+.card-headline {
+  margin: 2px 0px 16px 18px;
+  color: #244d51;
+  font-size: 22px;
+}
+
+.card-main-info-top {
+  display: flex;
+  color: #244d51;
+  margin: 0px 0px 14px 18px;
+}
+
+.card-main-info-bottom {
+  display: flex;
+  color: #668386;
+  margin-left: 18px;
+}
+
+.card-main-info-top-item:after {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  margin: 0 8px;
+  border: 2px solid rgba(36, 77, 81, 1);
+  transform: translateY(-3px);
+}
+
+.card-main-info-bottom-item:after {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  margin: 0 8px;
+  border: 2px solid rgba(102, 131, 134, 1);
+  transform: translateY(-3px);
+}
+
+.card-main-info-reviews {
+  color: rgba(217, 119, 103, 1);
+}
+
+.icon {
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  bottom: -16px;
+  right: -16px;
+}
+
+.card-secondary-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.avg-price {
+  color: #244d51;
+  font-size: 14px;
+  font-weight: 400;
+  border-bottom: 1px dotted #244d51;
+  margin-bottom: 12px;
+}
+
+.price {
+  color: #244d51;
+  font-weight: 600;
+  margin-bottom: 22px;
+}

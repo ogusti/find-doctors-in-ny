@@ -1,0 +1,19 @@
+.Speciality__input-filter-by {
+  width: 100%;
+  border: 1px solid rgba(190, 202, 203, 1);
+  padding: 12px 8px;
+  border-radius: 4px;
+}
+
+.Speciality__input-container {
+  padding: 24px 10px 20px 16px;
+}
+
+.Speciality__clear {
+  color: #ed6852;
+  border: none;
+  border-bottom: 1px dotted #ed6852;
+  background: none;
+  margin-left: 16px;
+  font-size: 14px;
+}

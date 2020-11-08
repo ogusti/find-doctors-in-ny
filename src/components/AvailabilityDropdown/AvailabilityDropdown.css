@@ -1,0 +1,35 @@
+.Availability__headline {
+  margin-bottom: 16px;
+  font-weight: 600;
+}
+
+.Availability__dropdown-content {
+  position: absolute;
+  color: rgba(36, 77, 81, 1);
+  background-color: white;
+  margin-top: 10px;
+  border: 1px solid #becacb;
+  border-radius: 8px;
+  user-select: none;
+  z-index: 1;
+  padding: 20px 16px 37px 16px;
+}
+
+.Availability__container {
+  padding-right: 138px;
+}
+
+.Availability__divider {
+  border-bottom: 1px solid #eaeeee;
+  margin-top: 16px;
+  margin-bottom: 10px;
+}
+
+.Availability__telehealth {
+  margin-right: 8px;
+}
+
+.Availability__amount {
+  margin-left: 8px;
+  color: #91a5a7;
+}
